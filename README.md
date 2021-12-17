@@ -6,6 +6,13 @@ Implementation of "Generating Sentences from a Continuous Space" paper using pyt
 * Pytorch 0.4.0
 * Torchtext 0.2.0
 
+## Needed
+
+> pyenv install 3.6.9 3.7.10 3.8.9 3.9.4 3.10a7
+> python -m venv .venv
+> . .venv/bin/activate
+> pip install -r requirements.txt
+
 ## Data
 Data can be found at ```data/imdb``` where I have splitted imdb review paras into sentences, picked those with word count more than 5 and less than 20, splitted them into train set and test set based on 7:3 ratio. In total, there are around 5.5 lakh training sentences and 2.4 lakh testing sentences
 
